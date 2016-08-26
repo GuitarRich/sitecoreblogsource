@@ -87,6 +87,11 @@ So for each rendering, we check if it is a `Jsx Controller Rendering` and then w
 ### Bundles, Bundles, Bundles
 The last step is to make sure that we include the bundled javascript in the main layout. Add this to your main layout towards the bottom.
 
+```html
+<script src="//fb.me/react-15.0.1.js"></script>
+<script src="//fb.me/react-dom-15.0.1.js"></script>
+@Scripts.Render("~/bundles/react")
+```
 
 ### Putting it all together
 
