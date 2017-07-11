@@ -14,7 +14,7 @@ Now Sitecore does have settings for site resolving and the link provider should 
 
 All was well... or so we thought. We did our local testing and sure enough navigating to **Site B** and loading the page with the article listing from **Site A** rendered links pointing to `http://sitea.local/news/article-name` - perfect. Run through a few more tests and its all looking great. Code gets committed and deployed out to the internal QA site.
 
-####All was not well!!
+#### All was not well!!
 After deploying and making sure everything was published, all the indexes were updated etc... I hit the page on **Site B** that listed articles from **Site A**... problem... the links were pointing to the content, but with **Site B**'s domain name.
 
 All the config looked ok. The custom link provider was being used, the Site Definitions had the `targetHostName` and `host` values set correctly. Everything matched my local environment, but it was not working. I double checked my local and that did work.
@@ -128,7 +128,7 @@ but on the QA servers, we has a slightly different setup - see if you can see wh
 
 The problem here was the wildcard Url for SiteA. On the QA environment, we only had the domain for `sitea.com`. **Site B** was setup as a sub-domain of Site A. This meant that when the LinkProvider checked to see if the `hostName`, which was `http://siteb.sitea.com/` matched the `host` property on `Site A` definition, it returned true, because the wildcard host `*.sitea.com` was a valid match.
 
-####Moral of the story or TL/DR;
+#### Moral of the story or TL/DR;
 If you have a multisite setup and some sites use subdomains of the main site. Becareful with using wildcard matches in the `host` property. For us the fix was a simple change, `*.sitea.com` became `qa.sitea.com` and the cross site links started working on the QA site just as they had done locally.
 
 Hopefully this helps someone else keep thier hair and not spend an afternoon feeling like you are going crazy! :D

@@ -29,7 +29,7 @@ But apart from looking a bit ugly and verbose, it means we have to get the conte
 
 No imagine that you have 10 fields like that on your rendering, things are starting to get very ugly!
 
-###RenderFieldArgs
+### RenderFieldArgs
 In the `RenderFieldArgs` we find a couple of properties that might help. There is `EnclosingTag`, this is just a string containing the type of tag, `h1`, `div` etc... - the field renderer pipeline then surrounds the field content with that tag. Helpfull, but a bit limiting.
 
 There are also properties for `Before` and `After` - now we are getting closer. These properties take a string containing whatever markup you want to add and logically add those string *before* and *after* the field.
@@ -63,7 +63,7 @@ This looks much better. Nice and clean and keeps page editor support. You can im
 > ####UPDATE: 
 > The enclosing tag field does not render the tags if the field is empty, and so works as expected. Before and After do not work the same way.
 
-###Time to override the Processor!
+### Time to override the Processor!
 
 {% asset_img all-the-processors.jpg "Override All The Processors!" %}
 

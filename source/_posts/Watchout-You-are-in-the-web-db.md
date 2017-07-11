@@ -8,7 +8,7 @@ Based on a vent by [@cassidydotdk](https://twitter.com/cassidydotdk) on the [Sit
 
 It has happened to me more times than I care to mention!
 
-###Solutions
+### Solutions
 A few solutions are available: There is a nice Google Chrome plugin: [Sitecore Extensions](https://alan-null.github.io/2016/05/sitecore-extensions_v1_0_0). This puts the DB name in the title bar of the Sitecore window. Makes it bright red if you are in the WEB database.
 
 {% asset_img SitecoreExtensionsPlugin.png "I'm safe and in the master db!" }
@@ -20,10 +20,10 @@ That seems to work nicely, but only for Chrome users.
 
 Then [@kam](https://twitter.com/kamsar) posted a quick content editor warning code snippet that works nicely on all browsers. But requires coding, deployment etc...
 
-###Gotta be able to do that in SPE!!
+### Gotta be able to do that in SPE!!
 So I wondered if we can do that quicker in [Sitecore PowerShell Extensions](https://marketplace.sitecore.net/en/Modules/Sitecore_PowerShell_console.aspx). Turns out its really easy to create content editor warngings and other content editor goodies with SPE. If you have never installed SPE and had a play with it, you need to do it now. It is easily the best developer module you can get for Sitecore, it *will* make your life better :)
 
-####Create a new module
+#### Create a new module
 Let's start by creating a new PowerShell module. Head to the `/sitecore/system/Modules/PowerShell/Script Library`, right click and select **Module**:
 {% asset_img CreateNewModule.png "Create new PowerShell Module" %}
 

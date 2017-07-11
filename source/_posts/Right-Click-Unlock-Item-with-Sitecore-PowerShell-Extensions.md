@@ -56,6 +56,12 @@ Now when right-clicking the menu option is not visible because of the rule for d
 
 {% asset_img nomenuitem.png "No menu item" %}
 
+
+### Security
+Now we can add Security in the standard Sitecore way. Just select the script module item, and add security to it like you would to any other Sitecore item:
+
+{% asset_img security.png "Add security to the script module" %}
+
 ### Download it here!
 If you want to try it out, download a package with the PowerShell Script Module items: {% asset_link SitecoreNutsandBoltsUnlockUser.zip "Unlock User - Sitecore Nuts & Bolts SPE Module" %}
 

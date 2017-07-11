@@ -52,10 +52,10 @@ Credits: [Sitecore preview mode and loading jQuery](http://kamsar.net/index.php/
 
 But that kinda goes against the benefits and reasons for using RequireJs in the first place. Fortunately it is pretty easy to run jQuery in no-conflict mode using Require.
 
-###jQuery as an AMD Module
+### jQuery as an AMD Module
 The first thing we need to do is define a new AMD module that puts jQuery into no conflict mode:
 
-####jquery.no-conflict.js
+#### jquery.no-conflict.js
 ```
 define(["jquery"], function(jq) {
   return jq.noConflict(false);

@@ -31,3 +31,10 @@
 
 <%- js('js/html-patch') %>
 <%- js('js/script') %>
+<%- js('js/readingTime.min') %>
+
+<script>
+  $(function() {
+    $('.article-entry').readingTime();
+  });
+</script>

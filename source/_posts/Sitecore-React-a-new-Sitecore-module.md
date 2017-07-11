@@ -1,11 +1,12 @@
 ---
 title: Sitecore.React - a new Sitecore module
+date: 2016-08-02 07:58:02
 tags:
 - Sitecore
 - ReactJS
 - Marketplace
 - Module
-category: Sitecore
+category: Sitecore.React
 ---
 I recently wrote a series of posts on how we could use [React]() to create Sitecore components. React looks to be a great fit for Sitecore becuase just like Sitecore it is based around components that you can create and compose to make complex UIs. As an added benefit, using React to write the front end instead of Razor means that our front end teams do not have to know or even care about Sitecore. We can have a FED team that purely concentrates on building atomic components and as back end developers we can focus on developing the Sitecore part. This workflow can reduce the number of errors introduced when transfering the front end code into back end razor scripts.
 

@@ -55,5 +55,5 @@ var guidString = MainUtil.GuidToString(myGuid);
 var guidString2 = myGuid.ToString("B");
 ```
 
-###TL/DR;
+### TL/DR;
 So if you are going to use `ShortID.Encode` - make sure you pass in the right format or you are going to get some unexpected results!

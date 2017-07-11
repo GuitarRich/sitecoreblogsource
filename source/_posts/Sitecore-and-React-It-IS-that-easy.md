@@ -5,7 +5,7 @@ tags:
 - Sitecore
 - ReactJS
 - Habitat
-category: Sitecore
+category: Sitecore.React
 ---
 {% asset_img hero.jpg "Richard was almost ready to implement his Hello World React app" %}
 

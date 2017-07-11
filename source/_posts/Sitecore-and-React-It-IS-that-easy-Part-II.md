@@ -5,7 +5,7 @@ tags:
 - Sitecore
 - ReactJS
 - Habitat
-category: Sitecore
+category: Sitecore.React
 ---
 {% asset_img hero.jpg "Things are getting pretty serious!" %}
 

@@ -38,7 +38,7 @@ If we start to look at the stack trace there is an `ArgumentNullException` throw
 
 The fact that the `Field` being passed in is null, usually means that when the Sitecore item was retrieved from the database, the field did not exist on that item.
 
-###Things to check
+### Things to check
 * The first thing to check is that the field exists in the **master** database on the template that the item is based on. If not, you are probably missing something from the TDS/Unicorn/Sitecore Package or whatever method you use to sync up your databases. So get the field added and publish.
 
 * If the field _does_ exist on the template, then it probably has not been published to the web database. Publish that template and you are good to go.
