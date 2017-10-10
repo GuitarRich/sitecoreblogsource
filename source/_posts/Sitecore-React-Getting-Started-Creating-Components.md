@@ -11,6 +11,8 @@ date: 2017-07-05 19:44:47
 
 This is the second in a series of posts looking at how to use the [Sitecore.React v2](https://github.com/GuitarRich/sitecore.react) module. If you haven't read the first post yet, I suggest you start here: {% post_link Sitecore-React-Getting-Started %}.
 
+All the code for this tutorial can be found here: [https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-2](https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-2).
+
 For this second post we will look at creating React components that are going to be compatible with Sitecore.React, how we setup the main JavaScript files and also how to setup the data structure to match what will be coming from Sitecore.
 
 Again, I will make the assumption that you already know a bit about ReactJS and the syntax involved in creating components etc... so I will not be explaining those portions of the example code.

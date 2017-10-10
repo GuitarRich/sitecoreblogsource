@@ -11,6 +11,8 @@ date: 2017-07-11 12:45:57
 
 This is the 3rd tutorial in the series on [Sitecore.React](https://github.com/GuitarRich/sitecore.react). If you have not read the previous 2 yet, read this {% post_link Sitecore-React-Getting-Started %} and this {% post_link Sitecore-React-Getting-Started-Creating-Components %} first.
 
+All the code for this tutorial can be found here: [https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-3](https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-3).
+
 In this tutorial we will be taking the fairly static site that we built in the previous 2 tutorials and make them dynamic - this is an important step in the process of building a react site that can be rendered by Sitecore. By the end of this tutorial we will be ready to start work on the Sitecore parts and integrate the React components as Sitecore renderings.
 
 ## Defining the data structure

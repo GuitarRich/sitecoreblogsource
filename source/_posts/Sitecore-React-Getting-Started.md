@@ -10,6 +10,8 @@ category: Sitecore.React
 ---
 Welcome to the Sitecore.React getting started guide. In this guide we will walk through getting webpack setup and the structure of our site. Over the next few tutorials we will build the front end site and then bring it all over to Sitecore!
 
+All the code for this tutorial can be found here: [https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-1](https://github.com/GuitarRich/sitecore.react.tutorial/tree/getting-started-1).
+
 # Getting Started with Webpack
 
 ## Prerequisites
@@ -178,7 +180,6 @@ require('jquery-ui');
 
 import React from "react";
 import ReactDOM from "react-dom";
-import { Router, Route, IndexRoute, hashHistory } from "react-router";
 ```
 
 Now we can initialize the react application and render it to the div we created earlier:
