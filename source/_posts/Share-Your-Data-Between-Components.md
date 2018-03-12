@@ -9,7 +9,7 @@ category: Sitecore
 date: 2017-11-02 19:35:45
 ---
 
-Recently there was this blog post about [9 Grievances that make Sitecore development a challenge](https://blog.saberkarmous.nl/2017/11/nine-grievances-that-make-sitecore-a-challenge/), and while I agree at times, ~Sitecore~ development can be a challenge (although, isn't that really why we are developers - because of the challenge?), I wanted to address one of the grievances and how to solve that without too much effort.
+Recently there was this blog post about [9 Grievances that make Sitecore development a challenge](https://blog.saberkarmous.nl/2017/11/nine-grievances-that-make-sitecore-a-challenge/), and while I agree at times, ~~Sitecore~~ development can be a challenge (although, isn't that really why we are developers - because of the challenge?), I wanted to address one of the grievances and how to solve that without too much effort.
 
 ## Yeah yeah, everything is an item. But where’s my page?
 
