@@ -57,17 +57,16 @@ Lets take a look at one of these components, the simplest, a `Promo`. Here is th
 
 Here you can see the basic scaffolding elements. There are 2 divs, the outer contains the classes and attributes that identify the component to SXA and to the Theme. This allows our front end team to namespace the CSS Classes to be specific to a particular component. This is important as it then means that the component can be used in multiple places in your site build. It is not limited to one single structure because of bad markup/css design.
 
-The inner `div` just lets us know that the content of the component is comming next. TBH - we could _probably_ do without that extra `div`, but it doesn't do anyone any harm by being there. 
+The inner `div` just lets us know that the content of the component is comming next. TBH - we could _probably_ do without that extra `div`, but it doesn't do anyone any harm by being there.
 
-Once inside the inner `div`, you can see a loop that renders the markup out from the Rendering Variant fields created for the component in Sitecore. 
+Once inside the inner `div`, you can see a loop that renders the markup out from the Rendering Variant fields created for the component in Sitecore.
 
-### What is the problem then?
+### Where the problem lies
 
 There are a few misconceptions I have seen about these rendering variants and they are either caused by unfamiliarity with the product or a lack of communication between the back end and front end development teams. It also changes the approach to the creation of the front end work. Traditionally, this would happen in static files before the main backend work is done. Now, that is slightly reversed, although a lot can now happen in parallel - reducing the time to market of the project.
 
-Once the front developer is aware that they can structure the HTML as they want to, they are a lot happier, it just takes a TEAM effort then to coordinate updates being made in Sitecore and then exported by Creative Exchange. 
+Once the front developer is aware that they can structure the HTML as they want to, they are a lot happier, it just takes a TEAM effort then to coordinate updates being made in Sitecore and then exported by Creative Exchange.
 
 Here is an example of how the markup is setup within Sitecore as a Rendering Variant:
 
 #TODO: ADD RENDERING VARIANT SCREEN SHOT HERE
-
